@@ -8,7 +8,8 @@ class Company:
         self.sector = sector
 
     def compdata(self):
-        return 'Name: {}\n' \
+        return '[Company data] \n' \
+               'Name: {}\n' \
                'Country: {}\n' \
                'Sector: {}\n'.format(self.name, self.country, self.sector)
 
