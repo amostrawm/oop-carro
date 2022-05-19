@@ -20,7 +20,7 @@ class Company:
             return 'Error'
 
 
-emp_1 = Employee('André', 'Marques', 4000, '3M')
+emp_1 = Employee('André', 'Silva', 3000, '3M')
 emps = [emp_1]
 print('Name: ' + emps[0].fullname() + '\n' + emps[0].empdata())
 
