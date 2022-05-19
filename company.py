@@ -24,7 +24,7 @@ emp_1 = Employee('André', 'Silva', 3000, '3M')
 emps = [emp_1]
 print('Name: ' + emps[0].fullname() + '\n' + emps[0].empdata())
 
-comp_1 = Company('3M', 'Usa', 'Production')
+comp_1 = Company('GE', 'Usa', 'Production')
 comps = [comp_1]
 print(comps[0].compdata())
 
