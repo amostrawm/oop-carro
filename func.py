@@ -1,16 +1,19 @@
-def Sum(numbers):
-    for x in numbers:
-        n1 = x
-        print(n1)
+class Numbers:
+    def Sum(n1, n2, n3):
+        number = n1 + n2 + n3
+        return number
 
-def my_function(food):
-  for x in food:
-    print(x)
+    def Subtraction(n1, n2, n3):
+        number = n1 - n2 - n3
+        return number
 
-fruits = ["apple", "banana", "cherry"]
+    def Multiply(n1, n2, n3):
+        number = n1 * n2 * n3
+        return number
 
-my_function(fruits)
+    def Division(n1, n2, n3):
+        number = n1 / n2 / n3
+        return number
 
-Numbers = [0, 1, 2]
-
-Sum(Numbers)
+number = Numbers.Sum(2, 2, 2)
+print(number)
